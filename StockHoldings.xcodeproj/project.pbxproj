@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5731D702EFE8E0A00BF1CEA /* UpstoxAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpstoxAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5731D812EFE8E0C00BF1CEA /* UpstoxAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpstoxAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5731D8B2EFE8E0C00BF1CEA /* UpstoxAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpstoxAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5731D702EFE8E0A00BF1CEA /* StockHoldings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockHoldings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5731D812EFE8E0C00BF1CEA /* StockHoldingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockHoldingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5731D8B2EFE8E0C00BF1CEA /* StockHoldingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockHoldingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A5731D722EFE8E0A00BF1CEA /* UpstoxAssignment */ = {
+		A5731D722EFE8E0A00BF1CEA /* StockHoldings */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UpstoxAssignment;
+			path = StockHoldings;
 			sourceTree = "<group>";
 		};
-		A5731D842EFE8E0C00BF1CEA /* UpstoxAssignmentTests */ = {
+		A5731D842EFE8E0C00BF1CEA /* StockHoldingsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UpstoxAssignmentTests;
+			path = StockHoldingsTests;
 			sourceTree = "<group>";
 		};
-		A5731D8E2EFE8E0C00BF1CEA /* UpstoxAssignmentUITests */ = {
+		A5731D8E2EFE8E0C00BF1CEA /* StockHoldingsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UpstoxAssignmentUITests;
+			path = StockHoldingsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		A5731D672EFE8E0A00BF1CEA = {
 			isa = PBXGroup;
 			children = (
-				A5731D722EFE8E0A00BF1CEA /* UpstoxAssignment */,
-				A5731D842EFE8E0C00BF1CEA /* UpstoxAssignmentTests */,
-				A5731D8E2EFE8E0C00BF1CEA /* UpstoxAssignmentUITests */,
+				A5731D722EFE8E0A00BF1CEA /* StockHoldings */,
+				A5731D842EFE8E0C00BF1CEA /* StockHoldingsTests */,
+				A5731D8E2EFE8E0C00BF1CEA /* StockHoldingsUITests */,
 				A5731D712EFE8E0A00BF1CEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		A5731D712EFE8E0A00BF1CEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5731D702EFE8E0A00BF1CEA /* UpstoxAssignment.app */,
-				A5731D812EFE8E0C00BF1CEA /* UpstoxAssignmentTests.xctest */,
-				A5731D8B2EFE8E0C00BF1CEA /* UpstoxAssignmentUITests.xctest */,
+				A5731D702EFE8E0A00BF1CEA /* StockHoldings.app */,
+				A5731D812EFE8E0C00BF1CEA /* StockHoldingsTests.xctest */,
+				A5731D8B2EFE8E0C00BF1CEA /* StockHoldingsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5731D6F2EFE8E0A00BF1CEA /* UpstoxAssignment */ = {
+		A5731D6F2EFE8E0A00BF1CEA /* StockHoldings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5731D952EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "UpstoxAssignment" */;
+			buildConfigurationList = A5731D952EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "StockHoldings" */;
 			buildPhases = (
 				A5731D6C2EFE8E0A00BF1CEA /* Sources */,
 				A5731D6D2EFE8E0A00BF1CEA /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A5731D722EFE8E0A00BF1CEA /* UpstoxAssignment */,
+				A5731D722EFE8E0A00BF1CEA /* StockHoldings */,
 			);
-			name = UpstoxAssignment;
+			name = StockHoldings;
 			packageProductDependencies = (
 			);
 			productName = UpstoxAssignment;
-			productReference = A5731D702EFE8E0A00BF1CEA /* UpstoxAssignment.app */;
+			productReference = A5731D702EFE8E0A00BF1CEA /* StockHoldings.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A5731D802EFE8E0C00BF1CEA /* UpstoxAssignmentTests */ = {
+		A5731D802EFE8E0C00BF1CEA /* StockHoldingsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5731D982EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "UpstoxAssignmentTests" */;
+			buildConfigurationList = A5731D982EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "StockHoldingsTests" */;
 			buildPhases = (
 				A5731D7D2EFE8E0C00BF1CEA /* Sources */,
 				A5731D7E2EFE8E0C00BF1CEA /* Frameworks */,
@@ -131,18 +131,18 @@
 				A5731D832EFE8E0C00BF1CEA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A5731D842EFE8E0C00BF1CEA /* UpstoxAssignmentTests */,
+				A5731D842EFE8E0C00BF1CEA /* StockHoldingsTests */,
 			);
-			name = UpstoxAssignmentTests;
+			name = StockHoldingsTests;
 			packageProductDependencies = (
 			);
 			productName = UpstoxAssignmentTests;
-			productReference = A5731D812EFE8E0C00BF1CEA /* UpstoxAssignmentTests.xctest */;
+			productReference = A5731D812EFE8E0C00BF1CEA /* StockHoldingsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A5731D8A2EFE8E0C00BF1CEA /* UpstoxAssignmentUITests */ = {
+		A5731D8A2EFE8E0C00BF1CEA /* StockHoldingsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5731D9B2EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "UpstoxAssignmentUITests" */;
+			buildConfigurationList = A5731D9B2EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "StockHoldingsUITests" */;
 			buildPhases = (
 				A5731D872EFE8E0C00BF1CEA /* Sources */,
 				A5731D882EFE8E0C00BF1CEA /* Frameworks */,
@@ -154,13 +154,13 @@
 				A5731D8D2EFE8E0C00BF1CEA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A5731D8E2EFE8E0C00BF1CEA /* UpstoxAssignmentUITests */,
+				A5731D8E2EFE8E0C00BF1CEA /* StockHoldingsUITests */,
 			);
-			name = UpstoxAssignmentUITests;
+			name = StockHoldingsUITests;
 			packageProductDependencies = (
 			);
 			productName = UpstoxAssignmentUITests;
-			productReference = A5731D8B2EFE8E0C00BF1CEA /* UpstoxAssignmentUITests.xctest */;
+			productReference = A5731D8B2EFE8E0C00BF1CEA /* StockHoldingsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5731D6B2EFE8E0A00BF1CEA /* Build configuration list for PBXProject "UpstoxAssignment" */;
+			buildConfigurationList = A5731D6B2EFE8E0A00BF1CEA /* Build configuration list for PBXProject "StockHoldings" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5731D6F2EFE8E0A00BF1CEA /* UpstoxAssignment */,
-				A5731D802EFE8E0C00BF1CEA /* UpstoxAssignmentTests */,
-				A5731D8A2EFE8E0C00BF1CEA /* UpstoxAssignmentUITests */,
+				A5731D6F2EFE8E0A00BF1CEA /* StockHoldings */,
+				A5731D802EFE8E0C00BF1CEA /* StockHoldingsTests */,
+				A5731D8A2EFE8E0C00BF1CEA /* StockHoldingsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		A5731D832EFE8E0C00BF1CEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5731D6F2EFE8E0A00BF1CEA /* UpstoxAssignment */;
+			target = A5731D6F2EFE8E0A00BF1CEA /* StockHoldings */;
 			targetProxy = A5731D822EFE8E0C00BF1CEA /* PBXContainerItemProxy */;
 		};
 		A5731D8D2EFE8E0C00BF1CEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5731D6F2EFE8E0A00BF1CEA /* UpstoxAssignment */;
+			target = A5731D6F2EFE8E0A00BF1CEA /* StockHoldings */;
 			targetProxy = A5731D8C2EFE8E0C00BF1CEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,16 +392,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UpstoxAssignment/UpstoxAssignment.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StockHoldings/StockHoldings.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UpstoxAssignment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StockHoldings/Preview Content\"";
 				DEVELOPMENT_TEAM = DY6296UD3U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -409,8 +410,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sudhanshu.UpstoxAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,16 +423,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UpstoxAssignment/UpstoxAssignment.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StockHoldings/StockHoldings.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UpstoxAssignment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StockHoldings/Preview Content\"";
 				DEVELOPMENT_TEAM = DY6296UD3U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -436,8 +441,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sudhanshu.UpstoxAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -455,7 +463,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpstoxAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpstoxAssignment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockHoldings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StockHoldings";
 			};
 			name = Debug;
 		};
@@ -473,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpstoxAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpstoxAssignment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockHoldings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StockHoldings";
 			};
 			name = Release;
 		};
@@ -512,7 +520,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5731D6B2EFE8E0A00BF1CEA /* Build configuration list for PBXProject "UpstoxAssignment" */ = {
+		A5731D6B2EFE8E0A00BF1CEA /* Build configuration list for PBXProject "StockHoldings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5731D932EFE8E0C00BF1CEA /* Debug */,
@@ -521,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5731D952EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "UpstoxAssignment" */ = {
+		A5731D952EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "StockHoldings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5731D962EFE8E0C00BF1CEA /* Debug */,
@@ -530,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5731D982EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "UpstoxAssignmentTests" */ = {
+		A5731D982EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "StockHoldingsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5731D992EFE8E0C00BF1CEA /* Debug */,
@@ -539,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5731D9B2EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "UpstoxAssignmentUITests" */ = {
+		A5731D9B2EFE8E0C00BF1CEA /* Build configuration list for PBXNativeTarget "StockHoldingsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5731D9C2EFE8E0C00BF1CEA /* Debug */,
